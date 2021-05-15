@@ -1,0 +1,31 @@
+body {
+    background: floralwhite;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 160px;
+    width: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    border-radius: 200px 200px 0 0;
+}
+
+div::before {
+    content: '';
+    position: absolute;
+    height: 160px;
+    width: 100px;
+    background: red;
+    border-radius: 200px 200px 0 0;
+    transform: rotate(-90deg);
+    left: -30px;
+    top: 30px;
+}

@@ -2,7 +2,7 @@ body {
     background: floralwhite;
 }
 
-section {
+.heart-holder {
     display: flex;
     justify-content: center;
     height: 400px;
@@ -10,7 +10,7 @@ section {
     align-items: center;
 }
 
-div {
+.heart {
     height: 160px;
     width: 100px;
     background-color: red;
@@ -18,7 +18,7 @@ div {
     border-radius: 200px 200px 0 0;
 }
 
-div::before {
+.heart::before {
     content: '';
     position: absolute;
     height: 160px;
